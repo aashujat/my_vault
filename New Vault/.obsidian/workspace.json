@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA8/Stream/Stream.md",
+                "file": "JAVA8/Imperative vs Declarative.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVA8/Stream/Stream.md",
+                "file": "JAVA8/Imperative vs Declarative.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JAVA8/Stream/Stream.md",
+                "file": "JAVA8/Imperative vs Declarative.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA8/Stream/Stream.md"
+                "file": "JAVA8/Imperative vs Declarative.md"
               }
             }
           }
@@ -161,6 +161,8 @@
   },
   "active": "533e2ae98920eab9",
   "lastOpenFiles": [
+    "Untitled.md",
+    "JAVA8/Stream/Stream.md",
     "Demo.md"
   ]
 }
