@@ -1,8 +1,8 @@
 # *Imperative*
 
-1 Focuses on how to perform the operations. 
-2 Embraces Object mutability. 
-3 This style of programming lists the step by step of instructions on how to achieve an objective. 
+1. Focuses on how to perform the operations. 
+2. Embraces Object mutability. 
+3. This style of programming lists the step by step of instructions on how to achieve an objective. 
 4 We write the code on what needs to be done in each step. 
 5 Imperative style is used with classic Object Oriented Programming
 
