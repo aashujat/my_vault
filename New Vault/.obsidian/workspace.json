@@ -30,9 +30,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "33b951a5728e0a35",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JAVA8/java8 features.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d62e099947d94fa1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JAVA8/Lambda function.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "65dbe4045997eb22",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JAVA8/Functional Interface.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -98,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVA8/Imperative vs Declarative.md",
+                "file": "JAVA8/Functional Interface.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JAVA8/Imperative vs Declarative.md",
+                "file": "JAVA8/Functional Interface.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA8/Imperative vs Declarative.md"
+                "file": "JAVA8/Functional Interface.md"
               }
             }
           }
@@ -159,8 +195,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "533e2ae98920eab9",
+  "active": "65dbe4045997eb22",
   "lastOpenFiles": [
+    "JAVA8/Lambda function.md",
+    "JAVA8/java8 features.md",
+    "JAVA8/Imperative vs Declarative.md",
     "Untitled.md",
     "JAVA8/Stream/Stream.md",
     "Demo.md"
