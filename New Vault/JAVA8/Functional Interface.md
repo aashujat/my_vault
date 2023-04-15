@@ -84,4 +84,4 @@ void add();
 
 interface B extends A{
 void delete();
-}
+}xgv

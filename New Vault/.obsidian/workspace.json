@@ -177,13 +177,21 @@
                 "file": "JAVA8/Functional Interface.md"
               }
             }
+          },
+          {
+            "id": "80390ef70df9ae59",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,7 +203,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "65dbe4045997eb22",
+  "active": "80390ef70df9ae59",
   "lastOpenFiles": [
     "JAVA8/Lambda function.md",
     "JAVA8/java8 features.md",
