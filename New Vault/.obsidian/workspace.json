@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA8/Functional Interface.md",
+                "file": "JAVA8/Imperative vs Declarative.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVA8/Functional Interface.md",
+                "file": "JAVA8/Imperative vs Declarative.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JAVA8/Functional Interface.md",
+                "file": "JAVA8/Imperative vs Declarative.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,20 +174,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA8/Functional Interface.md"
+                "file": "JAVA8/Imperative vs Declarative.md"
               }
-            }
-          },
-          {
-            "id": "80390ef70df9ae59",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -203,8 +195,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "80390ef70df9ae59",
+  "active": "1070fecd9141522a",
   "lastOpenFiles": [
+    "JAVA8/Functional Interface.md",
     "JAVA8/Lambda function.md",
     "JAVA8/java8 features.md",
     "JAVA8/Imperative vs Declarative.md",
