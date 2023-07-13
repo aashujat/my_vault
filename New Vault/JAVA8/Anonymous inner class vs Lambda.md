@@ -1,6 +1,8 @@
 ## Anonymous inner Class vs Lambda function
 
 whenever there is a annonymous inner class is used, it may be replaced by lambda functions.
+
+
 **Multithreading using Annonymous inner class**
 ```java
 public class ThreadDemo {
@@ -28,6 +30,7 @@ public class ThreadDemo {
 }
 ```
 **Multithreading using Lambda function**
+
 ```java
 
 Runnable r = () -> {
@@ -37,7 +40,9 @@ Runnable r = () -> {
 			}
 		};
 ```
+
 *OR*
+```java
 Thread t = new Thread( () -> {
 
 			for (int i = 0; i < 10; i++) {
