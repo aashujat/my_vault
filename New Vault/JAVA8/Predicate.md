@@ -4,16 +4,15 @@ It is defined in the java.util.function package and contains test() a functional
 A predicate is a function with a single argument and returns boolean value.
 1. To implement predicate functions in Java, Oracle people introduced Predicate interface in 1.8 version (i.e.,Predicate<T>).
 2. Predicate interface present in Java.util.function package.
-3. It’s a functional interface and it contains only one method i.e., test()
-
-   ```java
-   
+3. It’s a functional interface and it contains only one method i.e., test().
+4. 
+   ```java   
    interface Predicate<T> {
- public boolean test(T t);
+   public boolean test(T t);
  }
  ```
  
-Ex:1 Write a predicate to check whether the given integer is greater than 10 or not.
+ *Write a predicate to check whether the given integer is greater than 10 or not.*
 
 ```java
 import Java.util.function; 
