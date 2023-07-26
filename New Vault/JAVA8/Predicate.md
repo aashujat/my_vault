@@ -7,10 +7,12 @@ A predicate is a function with a single argument and returns boolean value.
 3. It’s a functional interface and it contains only one method i.e., test()
 
    ```java
+   
    interface Predicate<T> {
  public boolean test(T t);
  }
  ```
+ 
 Ex:1 Write a predicate to check whether the given integer is greater than 10 or not.
 
 ```java
