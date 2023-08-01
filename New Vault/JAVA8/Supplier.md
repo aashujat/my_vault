@@ -17,3 +17,7 @@ Property | Predicate | Function | Consumer | Supplier
 ---|---|---|---|---
 Purpose | To take some Input and perform some conditional checks | To take some Input and perform required Operation and return the result | To consume some Input and perform required Operation. It won’t return anything | To supply some Value base on our Requirement.
  Interface Declaration | ``` interface Predicate <T> { :::::::::::::} ``` | ``` interface Function <T, R> {  :::::::::::::} ``` | ``` interface Consumer <T> {  ::::::::::::: } ``` | ``` interface Supplier <R> {  ::::::::::::: } ```
+ Single  Abstract Method  (SAM) | public boolean test (T t); | public R apply (T t); | public void accept (T t); | public R get();
+ Default  Methods | and(), or(), negate()  | andThen(),compose()  | andThen()  | -
+ Static  Methods | isEqual() | identify() | - | -
+
