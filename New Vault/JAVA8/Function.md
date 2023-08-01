@@ -6,14 +6,14 @@ interface Function(T,R) {
  public R apply(T t); 
  }
 ```
-*T*: denotes the type of the input argument
+*T*: denotes the type of the input argument 
 *R*: denotes the return type of the function
 
 The Function interface consists of the following 4 methods as listed which are later discussed as follows:
 1. apply()
-2. andThen() --> ``` java default <V> Function<T, V> andThen(Function<? super R, ? extends V> after) ```
-3. compose() --> ```java  default <V> Function<V, R> compose(Function<? super V, ? extends T> before) ```
-4. identity() ---> ```java static <T> Function<T, T> identity() ```
+2. andThen() -->  default <V> Function<T, V> andThen(Function<? super R, ? extends V> after)
+3. compose() -->   default <V> Function<V, R> compose(Function<? super V, ? extends T> before)
+4. identity() --->  static <T> Function<T, T> identity()
 
 ### Difference between Predicate and Function
 
@@ -21,7 +21,7 @@ Sr | Predicate | Function
 ---|---|---
 1 | To implement conditional checks We should go for predicate | To perform certain operation And to return some result we Should go for function.
 2 | Predicate can take one type Parameter which represents Input argument type .Predicate<T> | Function can take 2 type Parameters. First one represent input argument type and Second one represent return Type. Function<T,R>
-3 | Predicate interface defines only one method called test() | 6Function interface defines only one Method called apply().
+3 | Predicate interface defines only one method called test() | Function interface defines only one Method called apply().
 4 | public boolean test(T t) | public R apply(T t)
 5 | Predicate can return only boolean value. | Function can return any type of value
 
@@ -40,8 +40,8 @@ import java.util.function.*;
 ```
 ## Function chaining
 We can combine multiple functions together to form more complex functions.For this Function interface defines the following 2 default methods:
-f1.andThen(f2): First f1 will be applied and then for the result f2 will be applied.
-f1.compose(f2)===>First f2 will be applied and then for the result f1 will be applied.
+1. f1.andThen(f2): First f1 will be applied and then for the result f2 will be applied.
+2. f1.compose(f2)===>First f2 will be applied and then for the result f1 will be applied.
 
 ## Function interface Static Method : identity()
 Function interface contains a static method.
