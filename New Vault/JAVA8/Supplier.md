@@ -16,4 +16,4 @@ Supplier Functional interface does not contain any default and static methods.
 Property | Predicate | Function | Consumer | Supplier
 ---|---|---|---|---
 Purpose | To take some Input and perform some conditional checks | To take some Input and perform required Operation and return the result | To consume some Input and perform required Operation. It won’t return anything | To supply some Value base on our Requirement.
- Interface Declaration | ```java interface Predicate <T> { :::::::::::::} ``` | interface Function <T, R> {  :::::::::::::} | interface Consumer <T> {  ::::::::::::: } | interface Supplier <R> {  ::::::::::::: } 
+ Interface Declaration | ``` interface Predicate <T> { :::::::::::::} ``` | ``` interface Function <T, R> {  :::::::::::::} ``` | ``` interface Consumer <T> {  ::::::::::::: } ``` | ``` interface Supplier <R> {  ::::::::::::: } ```
