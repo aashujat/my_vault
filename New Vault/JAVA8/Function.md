@@ -3,8 +3,8 @@ The Function Interface is a part of the java.util.function package which has bee
 It represents a function which takes in one argument and produces a result. Hence this functional interface takes in 2 generics namely as follows:
 ```java
 interface Function(T,R) { 
-2) public R apply(T t); 
-3) }
+ public R apply(T t); 
+ }
 ```
 *T*: denotes the type of the input argument
 *R*: denotes the return type of the function
@@ -20,13 +20,6 @@ The Function interface consists of the following 4 methods as listed which are l
 Sr | Predicate | Function
 ---|---|---
 1 | To implement conditional checks We should go for predicate | To perform certain operation And to return some result we Should go for function.
-2 | Predicate can take one type
-Parameter which represents
-Input argument type.
-Predicate<T> | Function can take 2 type Parameters.
-First one represent Input argument 
-type and Second one represent return 
-Type. 
-Function<T,R>
+2 | Predicate can take one type Parameter which represents Input argument type .Predicate<T> | Function can take 2 type Parameters. First one represent input argument type and Second one represent return Type. Function<T,R>
 3 | 1.89 | 6
 4 | 1.89 | 6
