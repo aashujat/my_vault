@@ -41,4 +41,34 @@ i.m1();
 }
 ```
 
-** Refered method and referring method must have same argument type. Mthod return type can be different, modifiers can be diff, method can be static or instance.**
+**Refered method and referring method must have same argument type. Mthod return type can be different, modifiers can be diff, method can be static or instance.**
+
+## Reference to an Instance Method
+
+like static methods, you can refer instance methods also.
+```java
+containingObject::instanceMethodName
+```
+### Example
+```java
+public class Test {
+
+	public void m1() {
+		for (int i = 0; i < 10; i++) {
+			System.out.println("Child Thread");
+		}
+	}
+	public static void main(String[] args) {
+
+		Test t = new Test();
+		Runnable r = t::m1;
+		Thread t1 = new Thread(r);
+		t1.start();
+		for (int i = 0; i < 10; i++) {
+			System.out.println("Main Thread");
+		}
+	}
+}
+```
+
+
