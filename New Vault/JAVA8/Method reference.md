@@ -12,7 +12,7 @@ with method reference.
  ```java
    ContainingClass::staticMethodName
 ```
-### Example
+### without method reference
 ```java
 interface Interf{
 public void m1();
@@ -25,3 +25,20 @@ System.out.println("interface implementation without Method reference");
 i.m1();
 }
 }
+```
+### with method reference
+```java
+interface Interf{
+public void m1();
+}
+class Test{
+public static void m2(){
+System.out.println("Method reference");
+public static void main(String [] args){
+Interf i= Test::m2 ;
+i.m1();
+}
+}
+```
+
+** Refered method and referring method must have same argument type. Mthod return type can be different, modifiers can be diff, method can be static or instance.**
